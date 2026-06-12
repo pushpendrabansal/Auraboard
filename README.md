@@ -77,5 +77,5 @@ Create production binaries configured for macOS (DMG & ZIP outputs):
 
 ## 📄 License
 
-This project is licensed under the MIT License. Created by [Pushpendra Bansal](https://github.com/pushpendrabansal).
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) License. Created by [Pushpendra Bansal](https://github.com/pushpendrabansal).
 # Auraboard

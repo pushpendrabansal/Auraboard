@@ -9,7 +9,7 @@
     "dist": "electron-builder"
   },
   "author": "Pushpendra Bansal(https://github.com/pushpendrabansal)",
-  "license": "MIT",
+  "license": "CC-BY-NC-4.0",
   "devDependencies": {
     "electron": "^30.0.6",
     "electron-builder": "^24.13.3"
