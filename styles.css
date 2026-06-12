@@ -1421,11 +1421,15 @@ input:checked + .slider:before {
     padding-left: 0;
 }
 
+.is-electron .cards-grid {
+    grid-template-columns: 1fr;
+}
+
 /* Custom Window Resize Handle */
 .resize-handle-br {
-    position: absolute;
-    bottom: 6px;
-    right: 6px;
+    position: fixed;
+    bottom: 8px;
+    right: 8px;
     width: 16px;
     height: 16px;
     cursor: nwse-resize;
