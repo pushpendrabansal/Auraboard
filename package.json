@@ -1,0 +1,57 @@
+{
+  "name": "auraboard",
+  "version": "1.0.0",
+  "description": "AuraBoard — Checklists, Notes & Links desktop application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Pushpendra Bansal(https://github.com/pushpendrabansal)",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^30.0.6",
+    "electron-builder": "^24.13.3"
+  },
+  "build": {
+    "appId": "com.auraboard.app",
+    "productName": "AuraBoard",
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "icon": "build/icon.png",
+      "minimumSystemVersion": "10.15.0"
+    },
+    "dmg": {
+      "title": "Install AuraBoard",
+      "contents": [
+        {
+          "x": 130,
+          "y": 220,
+          "type": "file"
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    },
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "index.html",
+      "styles.css",
+      "app.js",
+      "sound.js",
+      "main.js",
+      "build/**/*"
+    ]
+  }
+}
