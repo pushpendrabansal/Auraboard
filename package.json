@@ -51,6 +51,7 @@
       "app.js",
       "sound.js",
       "main.js",
+      "preload.js",
       "build/**/*"
     ]
   }
